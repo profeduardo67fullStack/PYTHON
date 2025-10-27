@@ -34,3 +34,21 @@ print("El valor Unicode o ASCII de la A es: ", ord('a')) #97
 
 print([3,4] >= [3,5]) #False
 
+
+x=10
+y=2
+
+#Comprobando la precedencia de los operadores artiméticos
+
+calif1 = 100.0
+calif2 = 70.0
+
+promedio = (calif1+calif2) / 2
+
+aprobado = promedio >= 70.0
+excelente = promedio > 90.0 and calif1 > 85 and calif2 > 85
+
+print("Promedio: ", promedio)
+print("Aprobado: ", aprobado)
+print("¿Desempeño Excelente?: ", excelente)
+
