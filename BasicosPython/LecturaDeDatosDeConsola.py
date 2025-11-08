@@ -21,3 +21,9 @@ resta = int(n1) - int(n2)
 
 print("El resultado de la suma es: " + str(suma)) #Podemos poner + o , para concatenar
 print("El resultado de la suma es: " , str(resta)) #Podemos poner + o , para concatenar
+
+peso = float(input("Ingresar tu peso en kilogramos: "))
+altura = float(input("Ingresar tu altura en metros: "))
+imc= peso / (altura ** 2)
+print("Tu índice de masa corporal es: ", round(imc,2))
+
