@@ -1,8 +1,8 @@
 '''
 No: 19
-Tema: Listas
+Tema: Tuplas
 Autor: Prof. Eduardo67
-Fecha: 14/11/2025
+Fecha: 15/11/2025
 '''
 
 #Declaración de una Tupla, es inmutable, no podemos cambiar sus valores en tiempo de ejecución
